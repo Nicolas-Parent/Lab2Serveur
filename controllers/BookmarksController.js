@@ -1,4 +1,4 @@
-const Repository = require('../models/repository');
+const Repository = require('../models/Repository');
 const Bookmark = require('../models/bookmark');
 
 module.exports =
