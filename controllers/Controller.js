@@ -1,4 +1,4 @@
-const Response = require('../Response.js');
+const Response = require('../response.js');
 /////////////////////////////////////////////////////////////////////
 // Important note about controllers:
 // You must respect pluralize convention: 

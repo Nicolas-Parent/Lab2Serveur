@@ -1,5 +1,5 @@
 const utilities = require('./utilities');
-const Response = require('./Response.js');
+const Response = require('./response.js');
 // this function extract the JSON data from the body of the request
 // and and pass it to controller Method
 // if an error occurs it will send an error response
