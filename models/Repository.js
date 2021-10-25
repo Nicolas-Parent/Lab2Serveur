@@ -42,9 +42,9 @@ module.exports = class Repository {
   write() {
     // Here we use the synchronus version writeFile in order
     // to avoid concurrency problems
+    this.newETag();
     fs.writeFileSync(this.objectsFile, JSON.stringify(this.objectsList));
     this.read();
-    this.newETag();
   }
   nextId() {
     let maxId = 0;
